@@ -1,13 +1,13 @@
 name: consys_gertec_plugin
 description: "Interface para utilização do scanner e impressora do dispositivo SK210 da Gertec"
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/ConsysOnline/consys_gertec_plugin
 repository: https://github.com/ConsysOnline/consys_gertec_plugin
 issue_tracker: https://github.com/ConsysOnline/consys_gertec_plugin/issues
 documentation: https://github.com/ConsysOnline/consys_gertec_plugin#readme
 
 environment:
-  sdk: ^3.10.7
+  sdk: ^3.8.0
   flutter: '>=3.3.0'
 
 dependencies:
