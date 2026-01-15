@@ -10,3 +10,6 @@
 * Suporte completo para dispositivo Gertec SK210
 * Documentação em português
 * Exemplos de uso incluídos
+
+## 0.0.2
+* Redução da versão mínima do Dart SDK (3.10.7 -> 3.8.0)
