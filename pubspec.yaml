@@ -26,10 +26,7 @@ topics:
   - scanner
   - gertec
   - sk210
-  - barcode
-  - qrcode
-  - thermal-printer
-  - pos
+
 
 platforms:
   android:
