@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.consys_gertec_plugin">
+
+    <application
+        android:name="${applicationName}"
+        android:label="consys_gertec_plugin_example"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme">
+        <activity 
+            android:name=".Scanner.CodeScannerActivity"
+            android:launchMode="singleTop"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity 
+            android:name=".Printer.PrinterActivity"
+            android:launchMode="singleTop"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+    </application>
+
+</manifest>
