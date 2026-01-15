@@ -13,3 +13,6 @@
 
 ## 0.0.2
 * Redução da versão mínima do Dart SDK (3.10.7 -> 3.8.0)
+
+## 0.0.3
+* Correção do caminho absoluto para as libs externas em /android/build.gradle
