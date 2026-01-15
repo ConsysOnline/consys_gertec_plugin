@@ -19,11 +19,10 @@ apply plugin: "kotlin-android"
 
 repositories {
     flatDir {
-        dirs(
-            "${rootProject.projectDir}/../../android/libs"
-        )
+        dirs "libs"
     }
 }
+
 
 android {
     namespace = "com.example.consys_gertec_plugin"
