@@ -19,3 +19,6 @@
 
 ## 0.0.4
 * Manutenção interna do build.gradle
+
+## 0.0.5
+* Manutenção interna do build.gradle
