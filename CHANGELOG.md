@@ -16,3 +16,6 @@
 
 ## 0.0.3
 * Correção do caminho absoluto para as libs externas em /android/build.gradle
+
+## 0.0.31
+* Manutenção interna do build.gradle

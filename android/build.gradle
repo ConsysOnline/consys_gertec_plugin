@@ -7,7 +7,6 @@ buildscript {
         google()
         mavenCentral()
     }
-
     dependencies {
         classpath("com.android.tools.build:gradle:8.11.1")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
@@ -23,14 +22,18 @@ repositories {
     }
 }
 
-
 android {
     namespace = "com.example.consys_gertec_plugin"
     compileSdk = 36
 
+    repositories {
+        flatDir {
+            dirs "libs"
+        }
+    }
+
     defaultConfig {
         minSdk = 26
-        minSdkVersion = 26
     }
 
     compileOptions {
@@ -39,7 +42,7 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17.toString()
+        jvmTarget = "17"
     }
 
     sourceSets {
