@@ -25,3 +25,6 @@
 
 ## 0.0.6
 * Manutenção interna do build.gradle
+
+## 0.0.7
+* Inserindo libs na pasta app
